@@ -237,13 +237,20 @@ ul li {
 .blouses,
 .lounge,
 .outerwear,
-.pair {
+.pair,
+.main-dresses,
+.jeans,
+.pants,
+.shorts,
+.jewelry,
+.accessories {
 	text-align: center;
 	padding-bottom: 5%;
 }
 
 .lounge,
-.pair {
+.pair,
+.pants {
 	background-color: #ddcec1;
 }
 
@@ -256,15 +263,6 @@ aside {
 	width: 100%;
 	text-align: center;
 	margin-top: 5%;
-}
-
-
-/* Error message on empty pages */
-
-
-.empty {
-	text-align: center;
-	margin: 20% 0;
 }
 
 
@@ -626,7 +624,13 @@ aside {
 	.blouses,
 	.lounge,
 	.outerwear,
-	.pair {
+	.pair,
+	.main-dresses,
+	.jeans,
+	.pants,
+	.shorts,
+	.jewelry,
+	.accessories {
 		padding-bottom: 4%;
 	}
 
