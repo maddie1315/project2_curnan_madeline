@@ -73,6 +73,10 @@ h1 {
   display: block;
 }
 
+.topnav a:hover {
+	color: white;
+}
+
 .topnav #myLinks i {
 	font-size: 0.6em;
 	padding: 0 1% 4% 1%;
@@ -89,6 +93,14 @@ h1 {
 	font-size: 2em;
 	top: 5%;
 	right: 5%;
+}
+
+.topnav a.icon:hover {
+	color: #88876d;
+}
+
+.topnav h1 a:hover {
+	color: #88876d;
 }
 
 
@@ -114,6 +126,10 @@ img {
 	color: white;
 	padding: 1%;
 	margin: 2% 1% 2% 1%;
+}
+
+.categories a:hover {
+	background-color: #bdcac0;
 }
 
 .hero {
@@ -179,6 +195,10 @@ footer {
 .socials {
 	float: left;
 	width: 7%;
+}
+
+.socials img:hover {
+	filter: drop-shadow(2px 2px 2px gray);
 }
 
 .help {
@@ -507,8 +527,13 @@ aside {
 	/* header */
 
 	h1 {
-		font-size: 4.2em;
-		padding: 1% 0 1% 3%;
+		font-size: 4em;
+		padding: 2% 0 2% 3%;
+	}
+
+	.topnav a.icon {
+		font-size: 3.7em;
+		padding-top: 1%;
 	}
 
 	/* hero */
@@ -649,8 +674,11 @@ aside {
 
 @media  (min-width: 1200px) {
 
+	h1 {
+		font-size: 3.7em;
+	}
+
 	.categories a {
-		font-size: 2em;
 		padding: 1.5%;
 	}
 
@@ -672,13 +700,13 @@ aside {
 
 @media (min-width: 1400px) {
 
-	h1 {
+	/*h1 {
 		font-size: 4.5em;
 	}
 
 	.categories a {
 		font-size: 2.3em;
-	}
+	}*/
 
 	h2 {
 		font-size: 3.5em;
