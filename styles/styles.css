@@ -679,11 +679,12 @@ aside {
 	}
 
 	.categories a {
-		padding: 1.5%;
+		padding: 1.7%;
+		font-size: 1.7em;
 	}
 
 	h2 {
-		font-size: 3.2em;
+		font-size: 3em;
 	}
 
 	figcaption {
@@ -695,41 +696,72 @@ aside {
 		padding: 1%;
 	}
 
+	/* footer test */
+
+	footer {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.socials {
+		width: 4%;
+		padding-top: 1%;
+	}
+
+	.socials img {
+		padding: 3%;
+	}
+
+	.help {
+		width: 12%;
+		margin: 1% 3%;
+	}
+
+	.about,
+	.connect {
+		width: 12%;
+		margin: 1% 2%;
+	}
+
+	p {
+		font-size: 1.6em;
+	}
+
+	ul li {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+
+	.brand {
+		width: 33%;
+	}
+
+	.brand h3 {
+		font-size: 3.2em;
+		margin: 0 1% 1% 1%;
+	}
+
+	.desktop-info {
+		margin: 1% 0 0 2%;
+	}
+
+	.desktop-info h4 {
+		font-size: 1.3em;
+		line-height: 1.4em;
+	}
+
 }
 
 
 @media (min-width: 1400px) {
 
-	/*h1 {
-		font-size: 4.5em;
-	}
-
 	.categories a {
-		font-size: 2.3em;
-	}*/
-
-	h2 {
-		font-size: 3.5em;
+		margin: 2.3% 1%;
 	}
 
-	figcaption {
-		font-size: 1.4em;
-	}
-
-	p {
-		font-size: 2.3em;
-	}
-
-	ul li {
-		font-size: 1.5em;
-	}
-
-	.brand h3 {
-		font-size: 4.4em;
-	}
-
-	.desktop-info h4 {
-		font-size: 2em;
+	.socials {
+		width: 3.5%;
+		padding-top: 0;
 	}
 
 	article figcaption {
@@ -737,7 +769,7 @@ aside {
 	}
 
 	aside.categories a {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 }
